@@ -13,7 +13,7 @@ import android.widget.Toast;
 import java.util.Arrays;
 import java.util.Random;
 
-public class epistasis3 extends AppCompatActivity {
+public class epistasis2 extends AppCompatActivity {
     /**
      * Assign variables as a string or an integer and also assign the combo of 0 and 1 that result in a specific colour (output)
      */
@@ -193,7 +193,7 @@ public class epistasis3 extends AppCompatActivity {
     protected void onRestart() {
 
         super.onRestart();
-        Intent i = new Intent(epistasis3.this, epistasis3.class);
+        Intent i = new Intent(epistasis2.this, epistasis2.class);
         startActivity(i);
         finish();
     }
@@ -201,7 +201,7 @@ public class epistasis3 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_epistasis3);
+        setContentView(R.layout.activity_epistasis2);
 
         genotype();
         back = (Button) findViewById(R.id.back);
